@@ -16,11 +16,11 @@ const added = [...numbers.slice(0, index), 3, ...numbers.slice(index), 4];
 
 console.log(added);
 
-//removing from the array
+//removing 2 from the array
 
 const removed = numbers.filter((n) => n !== 2);
 
-//updating
+//updating the array
 
 const newly = numbers.map((n) => (n === 2 ? 34 : n));
 console.log(newly);
