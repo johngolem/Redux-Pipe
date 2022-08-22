@@ -1,3 +1,6 @@
+// import {BUG_ADDED, BUG_REMOVED} from '../actionTypes';
+import * as actions from "../actionTypes";
+
 let lastId = 0;
 
 //reducer using if/else statement
